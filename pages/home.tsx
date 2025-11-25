@@ -10,7 +10,7 @@ export default function HomePage() {
         </h1>
 
         <p className="text-gray-300 text-lg mt-6 leading-relaxed">
-          TechTalks is a modern developer-focused knowledge hub...
+          TechTalks was built to be the essential resource for ambitious developers navigating the complex, rapidly evolving landscape of modern web architecture. We move beyond basic tutorials to provide deep, practical insights into serverless computing, cutting-edge UI frameworks, and high-performance engineering practices. Our goal is to empower developers to build faster, more scalable, and more reliable applications.
         </p>
 
         <p className="text-gray-400 text-lg mt-4 leading-relaxed">

@@ -1,7 +1,7 @@
-// lib/firebase.ts
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
+import { getStorage } from "firebase/storage"; // <- added
 
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
@@ -17,5 +17,8 @@ const app = initializeApp(firebaseConfig);
 // Authentication
 export const auth = getAuth(app);
 
-// 🔥 Firestore — THIS FIXES YOUR ERROR
+// Firestore
 export const db = getFirestore(app);
+
+// Firebase Storage
+export const storage = getStorage(app); // <- added
